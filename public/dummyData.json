@@ -1,0 +1,64 @@
+  [{
+        "id": "bda33adca828c09dc3cac3a856aef176",
+        "sport_key": "americanfootball_nfl",
+        "commence_time": "2021-09-10T00:20:00Z",
+        "home_team": "Tampa Bay Buccaneers",
+        "away_team": "Dallas Cowboys",
+        "bookmakers": [
+            {
+                "key": "unibet",
+                "title": "Unibet",
+                "last_update": "2021-06-10T13:33:18Z",
+                "markets": [
+                    {
+                        "key": "spreads",
+                        "outcomes": [
+                            {
+                                "name": "Dallas Cowboys",
+                                "price": -109,
+                                "point": 6.5
+                            },
+                            {
+                                "name": "Tampa Bay Buccaneers",
+                                "price": -111,
+                                "point": -6.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+        {
+        "id": "bda33adcsafdka92938233a856aef176",
+        "sport_key": "americanfootball_nfl",
+        "commence_time": "2023-06-12T00:12:00Z",
+        "home_team": "Cleveland Browns",
+        "away_team": "Pittsburgh Steelers",
+        "bookmakers": [
+            {
+                "key": "unibet",
+                "title": "Unibet",
+                "last_update": "2021-06-10T13:33:18Z",
+                "markets": [
+                    {
+                        "key": "spreads",
+                        "outcomes": [
+                            {
+                                "name": "Cleveland Browns",
+                                "price": -405,
+                                "point": -13.5
+                            },
+                            {
+                                "name": "Pittsburgh Steelers",
+                                "price": 341,
+                                "point": 13.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
