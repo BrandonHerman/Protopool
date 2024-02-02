@@ -2,6 +2,8 @@
 E-Pool application built in next-js and Typescript. Work in progress.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Intending to use https://the-odds-api.com/liveapi/guides/v4/#example-request
+
 ## Getting Started
 
 First, run the development server:
