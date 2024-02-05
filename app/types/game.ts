@@ -14,4 +14,5 @@ export interface Team {
     fullname: string;
     wins: number;
     losses: number;
+    logo: string;
 }
