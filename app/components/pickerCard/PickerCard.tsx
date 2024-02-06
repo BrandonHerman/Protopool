@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { useState } from "react";
 import { RadioGroup } from "@headlessui/react";
-import { PickerCardProps } from "./PickerCard.type";
+import { PickerCardProps } from './PickerCard.type';
 import favoriteLogic from "@/app/utils/favoriteLogic";
 import { Game, Team } from "@/app/types/game";
 
@@ -13,7 +13,7 @@ const PickerCard = ({ gameInfo }: PickerCardProps) => {
   const [selectedPick, setSelectedPick] = useState<String>("");
 
   return (
-    <div className="w-full p-5 shadow-xl rounded-lg">
+    <div className="w-full p-5 bg-white shadow-xl rounded-lg">
       <RadioGroup
         className="flex h-40 justify-between"
         value={selectedPick}
@@ -28,7 +28,7 @@ const PickerCard = ({ gameInfo }: PickerCardProps) => {
                 }
               >
                 <Image 
-                className="justify-center mx-16"
+                className="justify-center m-auto"
                 src={game.favorite.logo}
                 width={115}
                 height={115}
@@ -60,7 +60,7 @@ const PickerCard = ({ gameInfo }: PickerCardProps) => {
                 }
               >
                   <Image 
-                  className="justify-center mx-16"
+                  className="justify-center m-auto"
                   src={underdog.logo}
                   width={115}
                   height={115}
